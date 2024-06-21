@@ -1,0 +1,634 @@
+{
+  "ROOT": {
+    "type": {
+      "resolvedName": "Page"
+    },
+    "isCanvas": true,
+    "props": {
+      "title": "页面标题",
+      "theme": {
+        "algorithm": "defaultAlgorithm",
+        "token": {
+          "colorPrimary": "#1677ff"
+        }
+      },
+      "style": {
+        "position": "relative",
+        "width": "100%",
+        "height": "auto",
+        "widthType": "relative",
+        "heightType": "fit-content",
+        "fontFamily": "Microsoft YaHei",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "textAlign": "left",
+        "spacing": 0,
+        "paddingSide": "all",
+        "marginSide": "all",
+        "background": "linear-gradient(rgba(255, 255, 255,1), rgba(255, 255, 255,1))",
+        "padding": null,
+        "borderRadius": 0,
+        "backgroundList": [
+          {
+            "id": "0jwdLiamD5",
+            "key": "0jwdLiamD5",
+            "disabled": false,
+            "value": "rgba(255, 255, 255,1)"
+          }
+        ]
+      },
+      "projId": "1mTMvirNab18SqxPeiTIKA"
+    },
+    "displayName": "Page",
+    "custom": {},
+    "hidden": false,
+    "nodes": ["nIlD89X7T2"],
+    "linkedNodes": {}
+  },
+  "nIlD89X7T2": {
+    "type": {
+      "resolvedName": "Columns"
+    },
+    "isCanvas": true,
+    "props": {
+      "displayName": "Columns",
+      "columns": 3,
+      "wrap": false,
+      "style": {
+        "position": "relative",
+        "width": "100%",
+        "height": "100vh",
+        "widthType": "relative",
+        "heightType": "viewport",
+        "fontFamily": "Microsoft YaHei",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "textAlign": "left",
+        "spacing": 0,
+        "paddingSide": "all",
+        "marginSide": "all",
+        "padding": null,
+        "display": "flex",
+        "flexDirection": "column",
+        "rowGap": 0,
+        "columnGap": 0,
+        "heightUnit": "vh"
+      }
+    },
+    "displayName": "Columns",
+    "custom": {},
+    "parent": "ROOT",
+    "hidden": false,
+    "nodes": ["f8aJwz8fVk", "AmQ25CxoFQ", "b2-mJavExG"],
+    "linkedNodes": {}
+  },
+  "f8aJwz8fVk": {
+    "type": {
+      "resolvedName": "CustomNode"
+    },
+    "isCanvas": false,
+    "props": {},
+    "displayName": "CustomNode",
+    "custom": {},
+    "parent": "nIlD89X7T2",
+    "hidden": false,
+    "nodes": ["ajDPGISxZj"],
+    "linkedNodes": {}
+  },
+  "ajDPGISxZj": {
+    "type": {
+      "resolvedName": "Col"
+    },
+    "isCanvas": true,
+    "props": {
+      "id": "col-0",
+      "span": 8,
+      "type": "flex",
+      "style": {
+        "heightType": "fixed",
+        "height": "100px",
+        "heightUnit": "px"
+      }
+    },
+    "displayName": "Col",
+    "custom": {},
+    "parent": "f8aJwz8fVk",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  },
+  "AmQ25CxoFQ": {
+    "type": {
+      "resolvedName": "CustomNode"
+    },
+    "isCanvas": false,
+    "props": {},
+    "displayName": "CustomNode",
+    "custom": {},
+    "parent": "nIlD89X7T2",
+    "hidden": false,
+    "nodes": ["wfY-vzbQQD"],
+    "linkedNodes": {}
+  },
+  "wfY-vzbQQD": {
+    "type": {
+      "resolvedName": "Col"
+    },
+    "isCanvas": true,
+    "props": {
+      "id": "col-1",
+      "span": 8,
+      "type": "flex",
+      "flex": "auto",
+      "style": {
+        "heightType": "relative",
+        "height": "100%",
+        "heightUnit": "%",
+        "overflow": "auto"
+      }
+    },
+    "displayName": "Col",
+    "custom": {},
+    "parent": "AmQ25CxoFQ",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  },
+  "b2-mJavExG": {
+    "type": {
+      "resolvedName": "CustomNode"
+    },
+    "isCanvas": false,
+    "props": {},
+    "displayName": "CustomNode",
+    "custom": {},
+    "parent": "nIlD89X7T2",
+    "hidden": false,
+    "nodes": ["9N7wy0LAWt"],
+    "linkedNodes": {}
+  },
+  "9N7wy0LAWt": {
+    "type": {
+      "resolvedName": "Col"
+    },
+    "isCanvas": true,
+    "props": {
+      "id": "col-2",
+      "span": 8,
+      "type": "flex",
+      "style": {
+        "heightType": "fixed",
+        "height": "100px",
+        "heightUnit": "px"
+      }
+    },
+    "displayName": "Col",
+    "custom": {},
+    "parent": "b2-mJavExG",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  }
+}
+
+
+
+//  上下固定 中间自适应布局
+export const LayoutArea = {
+  f8aJwz8fVk: {
+    type: {
+      resolvedName: 'CustomNode'
+    },
+    isCanvas: false,
+    props: {},
+    displayName: 'CustomNode',
+    custom: {},
+    parent: 'nIlD89X7T2',
+    hidden: false,
+    nodes: ['ajDPGISxZj'],
+    linkedNodes: {}
+  },
+  ajDPGISxZj: {
+    type: {
+      resolvedName: 'Col'
+    },
+    isCanvas: true,
+    props: {
+      id: 'col-0',
+      span: 8,
+      type: 'flex',
+      style: {
+        heightType: 'fixed',
+        height: '100px',
+        heightUnit: 'px'
+      }
+    },
+    displayName: 'Col',
+    custom: {},
+    parent: 'f8aJwz8fVk',
+    hidden: false,
+    nodes: [topid, footid, headid],
+    linkedNodes: {}
+  },
+  AmQ25CxoFQ: {
+    type: {
+      resolvedName: 'CustomNode'
+    },
+    isCanvas: false,
+    props: {},
+    displayName: 'CustomNode',
+    custom: {},
+    parent: 'nIlD89X7T2',
+    hidden: false,
+    nodes: ['wfY-vzbQQD'],
+    linkedNodes: {}
+  },
+  'wfY-vzbQQD': {
+    type: {
+      resolvedName: 'Col'
+    },
+    isCanvas: true,
+    props: {
+      id: 'col-1',
+      span: 8,
+      type: 'flex',
+      flex: 'auto',
+      style: {
+        heightType: 'relative',
+        height: '100%',
+        heightUnit: '%',
+        overflow: 'auto'
+      }
+    },
+    displayName: 'Col',
+    custom: {},
+    parent: 'AmQ25CxoFQ',
+    hidden: false,
+    nodes: [boxid],
+    linkedNodes: {}
+  },
+  'b2-mJavExG': {
+    type: {
+      resolvedName: 'CustomNode'
+    },
+    isCanvas: false,
+    props: {},
+    displayName: 'CustomNode',
+    custom: {},
+    parent: 'nIlD89X7T2',
+    hidden: false,
+    nodes: ['9N7wy0LAWt'],
+    linkedNodes: {}
+  },
+  '9N7wy0LAWt': {
+    type: {
+      resolvedName: 'Col'
+    },
+    isCanvas: true,
+    props: {
+      id: 'col-2',
+      span: 8,
+      type: 'flex',
+      style: {
+        heightType: 'fixed',
+        height: '100px',
+        heightUnit: 'px'
+      }
+    },
+    displayName: 'Col',
+    custom: {},
+    parent: 'b2-mJavExG',
+    hidden: false,
+    nodes: [bottomid],
+    linkedNodes: {}
+  }
+};
+
+
+
+
+
+{
+    "D0A00": {
+        "name": "暖通空调",
+        "prefix": "HVC"
+    },
+    "D0A10": {
+        "name": "制冷站",
+        "prefix": ""
+    },
+    "D0A1A": {
+        "name": "制冷机",
+        "prefix": "CH"
+    },
+    "D0A1B": {
+        "name": "冷冻水泵",
+        "prefix": "CHWP"
+    },
+    "D0A1C": {
+        "name": "冷却水泵",
+        "prefix": "CWP"
+    },
+    "D0A1D": {
+        "name": "冷却塔",
+        "prefix": "CT"
+    },
+    "D0A1E": {
+        "name": "二次冷冻水泵",
+        "prefix": "SCHWP"
+    },
+    "D0A20": {
+        "name": "空调末端",
+        "prefix": ""
+    },
+    "D0A2A": {
+        "name": "新风机组",
+        "prefix": "FAU"
+    },
+    "D0A2B": {
+        "name": "空调机组",
+        "prefix": "AHU"
+    },
+    "D0A2C": {
+        "name": "风机盘管",
+        "prefix": "FCU"
+    },
+    "D0A2D": {
+        "name": "新风机",
+        "prefix": "OAF"
+    },
+    "D0A2E": {
+        "name": "送风机",
+        "prefix": "SAF"
+    },
+    "D0A2F": {
+        "name": "回排风机",
+        "prefix": "REAF"
+    },
+    "D0A30": {
+        "name": "阀门",
+        "prefix": "V"
+    },
+    "D0A3A": {
+        "name": "冷机冷冻阀门",
+        "prefix": "V"
+    },
+    "D0A3B": {
+        "name": "冷机冷却阀门",
+        "prefix": "V"
+    },
+    "D0A3Z": {
+        "name": "其他阀门",
+        "prefix": "V"
+    },
+    "D0AZ0": {
+        "name": "制冷站其他设备",
+        "prefix": ""
+    },
+    "D0AZA": {
+        "name": "锅炉",
+        "prefix": "BOIL"
+    },
+    "D0AZB": {
+        "name": "板式换热器",
+        "prefix": "HEX"
+    },
+    "D0AZC": {
+        "name": "其他水泵",
+        "prefix": "OWP"
+    },
+    "D0AZZ": {
+        "name": "其他",
+        "prefix": null
+    },
+    "D0B00": {
+        "name": "楼宇自控",
+        "prefix": "BAS"
+    },
+    "D0B0A": {
+        "name": "DDC",
+        "prefix": "DDC"
+    },
+    "D0B0B": {
+        "name": "交换机",
+        "prefix": "SW"
+    },
+    "D0B0C": {
+        "name": "网关",
+        "prefix": "GW"
+    },
+    "D0B0D": {
+        "name": "计算机",
+        "prefix": "PC"
+    },
+    "D0B0Z": {
+        "name": "其他",
+        "prefix": null
+    },
+    "D0C00": {
+        "name": "空压系统",
+        "prefix": "CAS"
+    },
+    "D0C10": {
+        "name": "空压站",
+        "prefix": ""
+    },
+    "D0C1A": {
+        "name": "空压机",
+        "prefix": "ACOP"
+    },
+    "D0C1B": {
+        "name": "冷干机",
+        "prefix": "RDRY"
+    },
+    "D0C1C": {
+        "name": "吸干机",
+        "prefix": "DDRY"
+    },
+    "D0C1D": {
+        "name": "储气湿罐",
+        "prefix": "ARWT"
+    },
+    "D0C1E": {
+        "name": "储气干罐",
+        "prefix": "ARDT"
+    },
+    "D0C1F": {
+        "name": "空压冷却水泵",
+        "prefix": "ACWP"
+    },
+    "D0C1G": {
+        "name": "空压冷却塔",
+        "prefix": "ACT"
+    },
+    "D0C1H": {
+        "name": "空压阀门",
+        "prefix": "AV"
+    },
+    "D0C1I": {
+        "name": "过滤器",
+        "prefix": "AF"
+    },
+    "D0C1Z": {
+        "name": "其他",
+        "prefix": null
+    },
+    "D0D00": {
+        "name": "能源管理",
+        "prefix": "EAS"
+    },
+    "D0D0A": {
+        "name": "电表",
+        "prefix": "EM"
+    },
+    "D0D0B": {
+        "name": "水表",
+        "prefix": "WM"
+    },
+    "D0D0C": {
+        "name": "燃气表",
+        "prefix": "GM"
+    },
+    "D0D0D": {
+        "name": "能量计",
+        "prefix": null
+    },
+    "D0D0Z": {
+        "name": "其他",
+        "prefix": null
+    },
+    "D0E00": {
+        "name": "变配电",
+        "prefix": "PTD"
+    },
+    "D0E0A": {
+        "name": "变压器",
+        "prefix": "VOLTF"
+    },
+    "D0E0B": {
+        "name": "高压柜",
+        "prefix": "VOLCAB"
+    },
+    "D0E0C": {
+        "name": "高压测控装置",
+        "prefix": "VOLCM"
+    },
+    "D0E0Z": {
+        "name": "其他",
+        "prefix": null
+    },
+    "D0F00": {
+        "name": "计量系统",
+        "prefix": "MET"
+    },
+    "D0G00": {
+        "name": "视频监控",
+        "prefix": "CTV"
+    },
+    "D0G0A": {
+        "name": "摄像机",
+        "prefix": "CAM"
+    },
+    "D0G0B": {
+        "name": "枪机摄像机",
+        "prefix": null
+    },
+    "D0G0C": {
+        "name": "热成像摄像机",
+        "prefix": null
+    },
+    "D0G0Z": {
+        "name": "其他",
+        "prefix": null
+    },
+    "D0H00": {
+        "name": "给排水系统",
+        "prefix": "WSD"
+    },
+    "D0H0A": {
+        "name": "生活水泵",
+        "prefix": "WSDP"
+    },
+    "D0H0B": {
+        "name": "生活水箱",
+        "prefix": "WSDT"
+    },
+    "D0H0C": {
+        "name": "阀门",
+        "prefix": "WSDV"
+    },
+    "D0H0Z": {
+        "name": "其他",
+        "prefix": null
+    },
+    "D0I00": {
+        "name": "夜景照明",
+        "prefix": "LAS"
+    },
+    "D0J00": {
+        "name": "公共照明",
+        "prefix": "PLS"
+    },
+    "D0J0A": {
+        "name": "照明回路",
+        "prefix": "PLSC"
+    },
+    "D0J0Z": {
+        "name": "其他",
+        "prefix": null
+    },
+    "D0K00": {
+        "name": "电梯系统",
+        "prefix": "EMS"
+    },
+    "D0K0A": {
+        "name": "直梯",
+        "prefix": "EMSEL"
+    },
+    "D0K0B": {
+        "name": "扶梯",
+        "prefix": "EMSES"
+    },
+    "D0K0Z": {
+        "name": "其他",
+        "prefix": null
+    },
+    "D0L00": {
+        "name": "消防系统",
+        "prefix": "FAS"
+    },
+    "D0M00": {
+        "name": "信息发布",
+        "prefix": "IRS"
+    },
+    "D0N00": {
+        "name": "背景音乐",
+        "prefix": "BMB"
+    },
+    "D0O00": {
+        "name": "防盗报警",
+        "prefix": "BPA"
+    },
+    "D0P00": {
+        "name": "门禁管理",
+        "prefix": "ACS"
+    },
+    "D0Q00": {
+        "name": "电子巡更",
+        "prefix": "GTS"
+    },
+    "D0R00": {
+        "name": "客流统计",
+        "prefix": "PFS"
+    },
+    "D0S00": {
+        "name": "停车管理",
+        "prefix": "PMS"
+    },
+    "D0Z00": {
+        "name": "其他",
+        "prefix": ""
+    }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+     <div id="BoxContainer" ></div>
+    <script>
+      const container = document.getElementById("BoxContainer");
+
+      const startTime = performance.now();
+
+      for(let i = 0; i < 100000; i++) {
+        const square = document.createElement("div");
+        square.style.width = "10px";
+        square.style.height = "10px";
+        square.style.background = "red";
+        square.style.position = "absolute";
+        // square.style.left = Math.random() * 500 + "px";
+        // square.style.top = Math.random() * 500 + "px";
+        // const left = Math.random() * 500;
+        // const top = Math.random() * 500;
+        // square.style.transform = `translate(${left}px, ${top}px)`;
+        container.appendChild(square);
+      }
+
+      const endTime = performance.now();
+      const renderTime = endTime - startTime;
+      console.log(`DOM render time: ${renderTime} ms`);
+    </script>
+
+
+  </body>
+</html>

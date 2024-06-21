@@ -1,0 +1,775 @@
+{
+  "G27xfLlinZ": {
+    "type": {
+      "resolvedName": "Container"
+    },
+    "isCanvas": true,
+    "props": {
+      "displayName": "Container",
+      "style": {
+        "position": "relative",
+        "width": "100%",
+        "height": "51px",
+        "widthType": "relative",
+        "heightType": "fixed",
+        "fontFamily": "PingFang SC",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "textAlign": "left",
+        "spacing": 0,
+        "paddingSide": "side",
+        "marginSide": "all",
+        "padding": 0,
+        "widthUnit": "%",
+        "display": "flex",
+        "flexDirection": "row",
+        "key": "centerCenter",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "paddingTop": 0,
+        "paddingRight": 16,
+        "paddingLeft": 24,
+        "paddingBottom": 10,
+        "heightUnit": "px",
+        "marginBottom": 0,
+        "marginTop": 0,
+        "background": "url(/_api/tfile/tpWrCQK4yROnt3bSnXenLy) 50% 50% / 100% 100% no-repeat",
+        "backgroundList": [
+          {
+            "id": "DuWRW3ln4I",
+            "type": "image",
+            "key": "DuWRW3ln4I",
+            "value": {
+              "backgroundImage": "tpWrCQK4yROnt3bSnXenLy",
+              "backgroundRepeat": "no-repeat",
+              "backgroundSize": "100% 100%",
+              "backgroundPosition": "50% 50%"
+            },
+            "disabled": false
+          }
+        ]
+      }
+    },
+    "displayName": "Container",
+    "custom": {},
+    "parent": "ROOT",
+    "hidden": false,
+    "nodes": ["U7qZk5Uhbg", "ug9dyExRuZ"],
+    "linkedNodes": {}
+  },
+  "U7qZk5Uhbg": {
+    "type": {
+      "resolvedName": "Container"
+    },
+    "isCanvas": true,
+    "props": {
+      "displayName": "Container",
+      "style": {
+        "position": "relative",
+        "width": "60%",
+        "height": "30px",
+        "widthType": "relative",
+        "heightType": "fixed",
+        "fontFamily": "PingFang SC",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "textAlign": "left",
+        "spacing": 0,
+        "paddingSide": "all",
+        "marginSide": "all",
+        "padding": 8,
+        "widthUnit": "%",
+        "display": "flex",
+        "flexDirection": "row",
+        "key": "bottomLeft",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-end",
+        "heightUnit": "px"
+      }
+    },
+    "displayName": "Container",
+    "custom": {},
+    "parent": "G27xfLlinZ",
+    "hidden": false,
+    "nodes": ["dhHIQVzwFZ"],
+    "linkedNodes": {}
+  },
+  "dhHIQVzwFZ": {
+    "type": {
+      "resolvedName": "TypographyText"
+    },
+    "isCanvas": false,
+    "props": {
+      "displayName": "Typography.Text",
+      "value": "深度节能优化平台",
+      "status": [],
+      "events": {},
+      "style": {
+        "position": "relative",
+        "width": "100%",
+        "height": "auto",
+        "widthType": "relative",
+        "heightType": "fit-content",
+        "fontFamily": "PingFang SC",
+        "fontSize": 24,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "textAlign": "left",
+        "spacing": 0,
+        "paddingSide": "all",
+        "marginSide": "all",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    "displayName": "TypographyText",
+    "custom": {},
+    "parent": "U7qZk5Uhbg",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  },
+  "ug9dyExRuZ": {
+    "type": {
+      "resolvedName": "Container"
+    },
+    "isCanvas": true,
+    "props": {
+      "displayName": "Container",
+      "style": {
+        "position": "relative",
+        "width": "40%",
+        "height": "30px",
+        "widthType": "relative",
+        "heightType": "fixed",
+        "fontFamily": "PingFang SC",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "textAlign": "left",
+        "spacing": 0,
+        "paddingSide": "side",
+        "marginSide": "all",
+        "padding": 8,
+        "widthUnit": "%",
+        "display": "flex",
+        "flexDirection": "row",
+        "key": "centerRight",
+        "justifyContent": "flex-end",
+        "alignItems": "center",
+        "columnGap": 0,
+        "paddingTop": 4,
+        "paddingRight": 0,
+        "paddingLeft": 0,
+        "paddingBottom": 0,
+        "heightUnit": "px"
+      }
+    },
+    "displayName": "Container",
+    "custom": {},
+    "parent": "G27xfLlinZ",
+    "hidden": false,
+    "nodes": [
+      "rnYlh568CL",
+      "8J1fQ6qX6B",
+      "JyAQmdhxTq",
+      "yD9xLlFl2g",
+      "TSFzE-sHJY",
+      "2R6qiLzBy0",
+      "QHJAE7UEim"
+    ],
+    "linkedNodes": {}
+  },
+  "rnYlh568CL": {
+    "type": {
+      "resolvedName": "Container"
+    },
+    "isCanvas": true,
+    "props": {
+      "displayName": "Container",
+      "style": {
+        "position": "relative",
+        "width": "86px",
+        "height": "39px",
+        "widthType": "fixed",
+        "heightType": "fixed",
+        "fontFamily": "PingFang SC",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "textAlign": "left",
+        "spacing": 0,
+        "paddingSide": "all",
+        "marginSide": "all",
+        "padding": 8,
+        "widthUnit": "px",
+        "heightUnit": "px",
+        "display": "flex",
+        "flexDirection": "row",
+        "columnGap": 8,
+        "key": "centerCenter",
+        "justifyContent": "center",
+        "alignItems": "center"
+      }
+    },
+    "displayName": "Container",
+    "custom": {},
+    "parent": "ug9dyExRuZ",
+    "hidden": false,
+    "nodes": ["6B70HNkvYx", "3jgzzvdaEq"],
+    "linkedNodes": {}
+  },
+  "6B70HNkvYx": {
+    "type": {
+      "resolvedName": "GenericIcon"
+    },
+    "isCanvas": false,
+    "props": {
+      "displayName": "GenericIcon",
+      "icon": "icon-temperature",
+      "events": {},
+      "style": {
+        "position": "relative",
+        "width": "100%",
+        "height": "auto",
+        "widthType": "relative",
+        "heightType": "fit-content",
+        "fontFamily": "PingFang SC",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "textAlign": "left",
+        "spacing": 0,
+        "paddingSide": "all",
+        "marginSide": "all",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    "displayName": "GenericIcon",
+    "custom": {},
+    "parent": "rnYlh568CL",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  },
+  "3jgzzvdaEq": {
+    "type": {
+      "resolvedName": "StateText"
+    },
+    "isCanvas": false,
+    "props": {
+      "displayName": "StateText",
+      "level": "5",
+      "size": "",
+      "decimalSeparator": 0,
+      "percent": false,
+      "value": {
+        "bind": "Temp",
+        "type": "global"
+      },
+      "type": "",
+      "color": "rgba(117, 253, 244, 1)",
+      "strong": false,
+      "italic": false,
+      "underline": false,
+      "mark": false,
+      "keyboard": false,
+      "code": false,
+      "isBefore": false,
+      "isAfter": true,
+      "before": {
+        "value": "前缀"
+      },
+      "after": {
+        "value": "℃"
+      }
+    },
+    "displayName": "StateText",
+    "custom": {},
+    "parent": "rnYlh568CL",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  },
+  "8J1fQ6qX6B": {
+    "type": {
+      "resolvedName": "Container"
+    },
+    "isCanvas": true,
+    "props": {
+      "displayName": "Container",
+      "style": {
+        "position": "relative",
+        "width": "86px",
+        "height": "39px",
+        "widthType": "fixed",
+        "heightType": "fixed",
+        "fontFamily": "PingFang SC",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "textAlign": "left",
+        "spacing": 0,
+        "paddingSide": "all",
+        "marginSide": "all",
+        "padding": 8,
+        "widthUnit": "px",
+        "heightUnit": "px",
+        "display": "flex",
+        "flexDirection": "row",
+        "columnGap": 8,
+        "key": "centerCenter",
+        "justifyContent": "center",
+        "alignItems": "center"
+      }
+    },
+    "displayName": "Container",
+    "custom": {},
+    "parent": "ug9dyExRuZ",
+    "hidden": false,
+    "nodes": ["sMppMAdH0s", "SnqGaeR3SS"],
+    "linkedNodes": {}
+  },
+  "sMppMAdH0s": {
+    "type": {
+      "resolvedName": "GenericIcon"
+    },
+    "isCanvas": false,
+    "props": {
+      "displayName": "GenericIcon",
+      "icon": "icon-water-temperature",
+      "events": {},
+      "style": {
+        "position": "relative",
+        "width": "100%",
+        "height": "auto",
+        "widthType": "relative",
+        "heightType": "fit-content",
+        "fontFamily": "PingFang SC",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "textAlign": "left",
+        "spacing": 0,
+        "paddingSide": "all",
+        "marginSide": "all",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    "displayName": "GenericIcon",
+    "custom": {},
+    "parent": "8J1fQ6qX6B",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  },
+  "SnqGaeR3SS": {
+    "type": {
+      "resolvedName": "StateText"
+    },
+    "isCanvas": false,
+    "props": {
+      "displayName": "StateText",
+      "level": "5",
+      "size": "",
+      "decimalSeparator": 0,
+      "percent": false,
+      "value": {
+        "bind": "Hum",
+        "type": "global"
+      },
+      "type": "",
+      "strong": false,
+      "italic": false,
+      "underline": false,
+      "mark": false,
+      "keyboard": false,
+      "code": false,
+      "isBefore": false,
+      "isAfter": true,
+      "before": {
+        "value": "前缀"
+      },
+      "after": {
+        "value": "℃"
+      },
+      "color": "rgba(117, 253, 244, 1)"
+    },
+    "displayName": "StateText",
+    "custom": {},
+    "parent": "8J1fQ6qX6B",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  },
+  "JyAQmdhxTq": {
+    "type": {
+      "resolvedName": "Container"
+    },
+    "isCanvas": true,
+    "props": {
+      "displayName": "Container",
+      "style": {
+        "position": "relative",
+        "width": "94px",
+        "height": "39px",
+        "widthType": "fixed",
+        "heightType": "fixed",
+        "fontFamily": "PingFang SC",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "textAlign": "left",
+        "spacing": 0,
+        "paddingSide": "all",
+        "marginSide": "all",
+        "padding": 8,
+        "widthUnit": "px",
+        "heightUnit": "px",
+        "display": "flex",
+        "flexDirection": "row",
+        "columnGap": 8,
+        "key": "centerCenter",
+        "justifyContent": "center",
+        "alignItems": "center"
+      }
+    },
+    "displayName": "Container",
+    "custom": {},
+    "parent": "ug9dyExRuZ",
+    "hidden": false,
+    "nodes": ["CSr7vl862W", "9mXoc6rHwd"],
+    "linkedNodes": {}
+  },
+  "CSr7vl862W": {
+    "type": {
+      "resolvedName": "GenericIcon"
+    },
+    "isCanvas": false,
+    "props": {
+      "displayName": "GenericIcon",
+      "icon": "icon-humidity",
+      "events": {},
+      "style": {
+        "position": "relative",
+        "width": "100%",
+        "height": "auto",
+        "widthType": "relative",
+        "heightType": "fit-content",
+        "fontFamily": "PingFang SC",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "textAlign": "left",
+        "spacing": 0,
+        "paddingSide": "all",
+        "marginSide": "all",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    "displayName": "GenericIcon",
+    "custom": {},
+    "parent": "JyAQmdhxTq",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  },
+  "9mXoc6rHwd": {
+    "type": {
+      "resolvedName": "StateText"
+    },
+    "isCanvas": false,
+    "props": {
+      "displayName": "StateText",
+      "level": "5",
+      "size": "",
+      "decimalSeparator": 0,
+      "percent": false,
+      "value": {
+        "bind": "Weather",
+        "type": "global"
+      },
+      "type": "",
+      "strong": false,
+      "italic": false,
+      "underline": false,
+      "mark": false,
+      "keyboard": false,
+      "code": false,
+      "isBefore": false,
+      "isAfter": false,
+      "before": {
+        "value": "前缀"
+      },
+      "after": {
+        "value": ""
+      },
+      "color": "rgba(117, 253, 244, 1)"
+    },
+    "displayName": "StateText",
+    "custom": {},
+    "parent": "JyAQmdhxTq",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  },
+  "yD9xLlFl2g": {
+    "type": {
+      "resolvedName": "Container"
+    },
+    "isCanvas": true,
+    "props": {
+      "displayName": "Container",
+      "style": {
+        "position": "relative",
+        "width": 17,
+        "height": 35,
+        "widthType": "fixed",
+        "heightType": "fixed",
+        "fontFamily": "PingFang SC",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "textAlign": "left",
+        "spacing": 0,
+        "paddingSide": "all",
+        "marginSide": "all",
+        "padding": 0,
+        "widthUnit": "px",
+        "heightUnit": "px",
+        "display": "flex",
+        "flexDirection": "row",
+        "key": "centerCenter",
+        "justifyContent": "center",
+        "alignItems": "center"
+      }
+    },
+    "displayName": "Container",
+    "custom": {},
+    "parent": "ug9dyExRuZ",
+    "hidden": false,
+    "nodes": ["BOdRURJ7R_"],
+    "linkedNodes": {}
+  },
+  "BOdRURJ7R_": {
+    "type": {
+      "resolvedName": "Divider"
+    },
+    "isCanvas": true,
+    "props": {
+      "displayName": "Divider",
+      "type": "vertical",
+      "orientation": "center",
+      "children": "",
+      "orientationMargin": 8,
+      "dashed": false,
+      "plain": false
+    },
+    "displayName": "Divider",
+    "custom": {},
+    "parent": "yD9xLlFl2g",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  },
+  "TSFzE-sHJY": {
+    "type": {
+      "resolvedName": "Container"
+    },
+    "isCanvas": true,
+    "props": {
+      "displayName": "Container",
+      "style": {
+        "position": "relative",
+        "width": "154px",
+        "height": "42px",
+        "widthType": "fixed",
+        "heightType": "fixed",
+        "fontFamily": "PingFang SC",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "textAlign": "left",
+        "spacing": 0,
+        "paddingSide": "all",
+        "marginSide": "all",
+        "padding": 8,
+        "widthUnit": "px",
+        "heightUnit": "px",
+        "display": "flex",
+        "flexDirection": "row",
+        "key": "centerCenter",
+        "justifyContent": "center",
+        "alignItems": "center"
+      }
+    },
+    "displayName": "Container",
+    "custom": {},
+    "parent": "ug9dyExRuZ",
+    "hidden": false,
+    "nodes": ["v1sC6X-s1B"],
+    "linkedNodes": {}
+  },
+  "v1sC6X-s1B": {
+    "type": {
+      "resolvedName": "TimeText"
+    },
+    "isCanvas": false,
+    "props": {
+      "displayName": "TimeText",
+      "format": "YYYY-MM-DD HH:mm:ss",
+      "interval": 1,
+      "style": {
+        "position": "relative",
+        "width": "100%",
+        "height": "auto",
+        "widthType": "relative",
+        "heightType": "fit-content",
+        "fontFamily": "PingFang SC",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "textAlign": "left",
+        "spacing": 0,
+        "paddingSide": "all",
+        "marginSide": "all"
+      }
+    },
+    "displayName": "TimeText",
+    "custom": {},
+    "parent": "TSFzE-sHJY",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  },
+  "2R6qiLzBy0": {
+    "type": {
+      "resolvedName": "Container"
+    },
+    "isCanvas": true,
+    "props": {
+      "displayName": "Container",
+      "style": {
+        "position": "relative",
+        "width": 16,
+        "height": "35px",
+        "widthType": "fixed",
+        "heightType": "fixed",
+        "fontFamily": "PingFang SC",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "textAlign": "left",
+        "spacing": 0,
+        "paddingSide": "all",
+        "marginSide": "all",
+        "padding": 8,
+        "widthUnit": "px",
+        "heightUnit": "px",
+        "display": "flex",
+        "flexDirection": "row",
+        "key": "centerCenter",
+        "justifyContent": "center",
+        "alignItems": "center"
+      }
+    },
+    "displayName": "Container",
+    "custom": {},
+    "parent": "ug9dyExRuZ",
+    "hidden": false,
+    "nodes": ["XyezPQteo0"],
+    "linkedNodes": {}
+  },
+  "XyezPQteo0": {
+    "type": {
+      "resolvedName": "Divider"
+    },
+    "isCanvas": true,
+    "props": {
+      "displayName": "Divider",
+      "type": "vertical",
+      "orientation": "center",
+      "children": "",
+      "orientationMargin": 8,
+      "dashed": false,
+      "plain": false
+    },
+    "displayName": "Divider",
+    "custom": {},
+    "parent": "2R6qiLzBy0",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  },
+  "QHJAE7UEim": {
+    "type": {
+      "resolvedName": "Container"
+    },
+    "isCanvas": true,
+    "props": {
+      "displayName": "Container",
+      "style": {
+        "position": "relative",
+        "width": 20,
+        "height": 41,
+        "widthType": "fixed",
+        "heightType": "fixed",
+        "fontFamily": "PingFang SC",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "textAlign": "center",
+        "spacing": 0,
+        "paddingSide": "all",
+        "marginSide": "all",
+        "padding": 8,
+        "widthUnit": "px",
+        "heightUnit": "px",
+        "display": "flex",
+        "flexDirection": "row",
+        "key": "centerCenter",
+        "justifyContent": "center",
+        "alignItems": "center"
+      }
+    },
+    "displayName": "Container",
+    "custom": {},
+    "parent": "ug9dyExRuZ",
+    "hidden": false,
+    "nodes": ["7JD00xmOxx"],
+    "linkedNodes": {}
+  },
+  "7JD00xmOxx": {
+    "type": {
+      "resolvedName": "GenericIcon"
+    },
+    "isCanvas": false,
+    "props": {
+      "displayName": "GenericIcon",
+      "icon": "WifiOutlined",
+      "events": {},
+      "style": {
+        "position": "relative",
+        "width": "100%",
+        "height": "auto",
+        "widthType": "relative",
+        "heightType": "fit-content",
+        "fontFamily": "PingFang SC",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "textAlign": "center",
+        "spacing": 0,
+        "paddingSide": "all",
+        "marginSide": "all"
+      }
+    },
+    "displayName": "GenericIcon",
+    "custom": {},
+    "parent": "QHJAE7UEim",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  }
+}
